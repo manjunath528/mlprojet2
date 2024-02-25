@@ -1,0 +1,13 @@
+prefix=/Users/manjunathreddy/Desktop/mlproject3/venv
+exec_prefix=/Users/manjunathreddy/Desktop/mlproject3/venv
+libdir=/Users/manjunathreddy/Desktop/mlproject3/venv/lib
+sharedlibdir=/Users/manjunathreddy/Desktop/mlproject3/venv/lib
+includedir=/Users/manjunathreddy/Desktop/mlproject3/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
