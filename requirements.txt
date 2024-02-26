@@ -4,6 +4,7 @@ notebook
 numpy
 scikit-learn
 matplotlib
+seaborn
 python-box==6.0.2
 pyYAML
 tqdm
@@ -12,4 +13,6 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+catboost
+xgboost
 -e .
